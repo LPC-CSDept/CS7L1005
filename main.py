@@ -12,22 +12,19 @@ class Student:
 
 
 def makeStudent(student_dict_list):
-    slist = []
-    for student in student_dict_list:
-        sid = student['id']
-        name = student['name']
-        s = Student(sid, name)
-        slist.append(s)
-    return slist
+    """
+    ########################################
+    Code Your Program here
+    ########################################
+    """
 
 
 def deleteOneStudent(slist, did):
-    for i, student in enumerate(slist):
-        if student.id == did:
-            print('-->Deleted', student)
-            del student
-            del slist[i]
-            # Student.numofStudent -= 1
+    """
+    ########################################
+    Code Your Program here
+    ########################################
+    """
 
 
 def main():
