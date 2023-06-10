@@ -2,33 +2,13 @@
 class Student:
     numofStudent = 0
 
-    def __init__(self, sid, name):
-        self._id = sid
-        self._name = name
-        Student.numofStudent += 1
-
-    @property
-    def id(self):
-        return self._id
-
-    @id.setter
-    def id(self, id):
-        self._id = id
-
-    @property
-    def name(self):
-        return self._name
-
-    @name.setter
-    def name(self, name):
-        self._name = name
-
-    def __del__(self):
-        Student.numofStudent -= 1
-        del self
-
     def __str__(self):
         return (f'Student id: {self.id:>10} \t name: {self.name:>10}')
+    """
+    ########################################
+    Code Your Program here
+    ########################################
+    """
 
 
 def makeStudent(student_dict_list):
